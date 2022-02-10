@@ -1,0 +1,60 @@
+html {
+    height: 50%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    background-color: #2F2325;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.menu-principal {
+    min-width: 400px;
+    text-align: center;
+}
+
+.menu-principal h1 {
+    background: black;
+    color: #FDD05B;
+    border-bottom: solid 5px #2F2325;
+    padding: 15px 0px;
+    margin: 0;
+}
+
+.menu-principal nav {
+    display: inline-block;
+    background-color: #DC765D;
+    border-bottom: solid 5px black;
+    min-width: 400px;
+}
+
+.menu-principal a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2em;
+}
+
+.menu-principal a:hover {
+    background-color: #F7A4B4;
+}
+.logo {
+    display: block;
+    height: 200px;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo img {
+    height: 100%;
+}
