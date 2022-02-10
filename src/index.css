@@ -28,13 +28,17 @@ body {
     border-bottom: solid 5px #2F2325;
     padding: 15px 0px;
     margin: 0;
+    border-radius: 10px;
+     border: solid 2px #FFF2E7;
 }
 
 .menu-principal nav {
     display: inline-block;
-    background-color: #DC765D;
     border-bottom: solid 5px black;
     min-width: 400px;
+    border-radius: 10px;
+    background-color: #DC765D;
+    border: solid 2px #FFF2E7;
 }
 
 .menu-principal a {
