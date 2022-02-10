@@ -27,6 +27,6 @@ function calculaMoeda() {
     quantidadeM1c = Math.floor(valorTroco / 0.01);
     valorM1c = quantidadeM1c > 0 ? quantidadeM1c * 0.01 : 0;
 
-    result = "A quantidade mínima de cada valor de moeda é de: R$1,00 = " + quantidadeM1r +  "<br>R$0,50 = " + quantidadeM50c + "<br>R$0,25 = " + quantidadeM25c + "<br>R$0,10 = " + quantidadeM10c + "<br>R$0,05 = " + quantidadeM5c + "<br>R$0,01 = " + quantidadeM1c + "!"
+    result = "A quantidade mínima de cada valor de moeda é de: <br>R$1,00 = " + quantidadeM1r +  "<br>R$0,50 = " + quantidadeM50c + "<br>R$0,25 = " + quantidadeM25c + "<br>R$0,10 = " + quantidadeM10c + "<br>R$0,05 = " + quantidadeM5c + "<br>R$0,01 = " + quantidadeM1c + "!"
     document.getElementById("resultado").innerHTML = result;
 }
