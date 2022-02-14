@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,9 @@
     <title>Desafio 3</title>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap%27" rel="stylesheet">
     <link href="../src/index.css" rel="stylesheet" type="text/css" />
+    <link href="../src/desafio.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <div class="logo">
         <a href="../index.html">
@@ -15,5 +18,19 @@
                 alt="Logo" />
         </a>
     </div>
+    <div class="container">
+        <nav>
+            <h1>Desafio 3</h1>
+            <input type="text" id="frases" name="frases" class="form-control" placeholder="Insira uma ou mais frases"
+                value="">
+
+            <button class="form-control" onclick="calculaCaracteres()">Clique aqui</button>
+
+            <p class="form-control" id="resultado"> </p>
+        </nav>
+    </div>
+
+    <script src="../src/desafio3.js"> </script>
 </body>
-</html>l
+
+</html>
