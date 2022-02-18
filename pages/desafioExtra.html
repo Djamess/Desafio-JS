@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link href="../src/index.css" rel="stylesheet" type="text/css" />
     <link href="../src/desafioExtra.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <div class="logo">
         <a href="../index.html">
@@ -16,24 +18,26 @@
                 alt="Logo" />
         </a>
     </div>
-
-    <div class="container">
-        <nav>
-            <h1>Desafio Extra</h1>
-            <h2>Insira os dados do usuário</h2>
-            <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome"value="">
-            <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade"value="">
-            <input type="text" id="skills" name="skills" class="form-control" placeholder="Skills"value="">
-            <button onclick="calculaCaracteres()">Clique aqui</button>
-        </nav>
-    </div>
-
-    <div class = "resultado">
-        <p class="titulo" id="resultadoNome"> </p>
-        <p class="titulo" id="resultadoIdade"> </p>
-        <p class="titulo" id="resultadoSkills"> </p>
-    </div>
+    <main class="container">
+        <section class="container__section container__formulario">
+            <h1 class="section__title">Insira os dados do usuário</h1>
+            <form class="form" id="form">
+                <label for="">Nome</label>
+                <input id="nome" type="text" required autocomplete="off" />
+                <label for="">Idade</label>
+                <input id="idade" type="number" required autocomplete="off" />
+                <label for="habilidades">Skills</label>
+                <input id="habilidades" type="text" maxlength="50" required autocomplete="off" />
+                <input type="submit" value="Resultado" />
+            </form>
+        </section>
+        <section class="container__section container__resultado">
+            <h1 class="section__title">Resultado</h1>
+            <ul id="resultado"></ul>
+        </section>
+    </main>
 
     <script src="../src/desafioExtra.js"> </script>
 </body>
+
 </html>l
